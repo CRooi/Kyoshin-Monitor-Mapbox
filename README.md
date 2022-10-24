@@ -12,4 +12,4 @@ NIED (防災科研 https://www.bosai.go.jp/ )
 ![iShot_2022-10-24_17.47.48.png](https://s2.loli.net/2022/10/24/BIJWEqhmZUMcyuT.png)
 
 ## Tips
-If your device timezone is set as UTC+9, please del the content of '/src/index.js' line 14.
+If your device timezone is set as UTC+9, please del the content of '/src/js/index.js' line 14.

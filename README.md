@@ -1,5 +1,6 @@
 # Kyoshin-Monitor-Mapbox
 Display Kyoshin Monitor (強震モニタ) data in Mapbox GL JS.
+
 Assist: 丿丶夜曦 (https://space.bilibili.com/12982030 )。
 
 ## Data From

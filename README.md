@@ -5,6 +5,7 @@ Assist: 丿丶夜曦 (https://space.bilibili.com/12982030 ).
 
 ## Data From
 Yahoo! JAPAN (雅虎日本 https://yahoo.co.jp/ ).
+
 NIED (防災科研 https://www.bosai.go.jp/ ).
 
 ## Screenshot

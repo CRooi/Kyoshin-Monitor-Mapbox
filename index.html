@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="./src/js/jquery-3.6.1.min.js"></script>
+    <script src="./src/js/index.js"></script>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <style>
+    </style>
+  </head>
+  <body>
+        <div id="map"></div>
+        <div id="topLeft">
+            リアルタイム震度<br>
+            <span id="time">0000-00-00 00:00:00</span>
+        </div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoieW93b3QiLCJhIjoiY2tkNG10ZnpmMTNuYTJwcGJja2w2aTVuYSJ9.9QRtVncQVTbedZZBz3pUeA';
+        const map = new mapboxgl.Map({
+	        container: 'map',
+	        style: 'mapbox://styles/yowot/cl583m0az002714pthclz95pf',
+	        center: [138.58396858702406, 37.84876747752227],
+	        zoom: 3.540104376181827,
+	        projection: 'mercator'
+        });
+        map.on('style.load', () => {
+	        map.setFog({});
+	        let nav = new mapboxgl.NavigationControl();
+	        map.addControl(nav, 'top-right')
+	        map.dragRotate.disable();
+	        map.touchZoomRotate.disableRotation();
+        });
+    </script>
+  </body>
+</html>

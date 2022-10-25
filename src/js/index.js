@@ -17,7 +17,7 @@ async function getData(){
     month = today.getMonth() + 1;
     day = today.getDate() ;
     hour = today.getHours();
-     minute = today.getMinutes();
+    minute = today.getMinutes();
     second = today.getSeconds();
     month = month < 10 ? "0" + month: month;
     day = day < 10 ? "0" + day: day;
